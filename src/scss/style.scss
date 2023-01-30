@@ -1,0 +1,115 @@
+@import 'config';
+@import 'button';
+@import 'about';
+@import 'contactForm';
+@import 'projects';
+
+
+.App {
+  margin: 0;
+  font-family: $custom-font;
+  box-sizing: border-box;
+  justify-content: center;
+  display: flex;
+}
+  
+  
+.background {
+  background-position-x: left;
+  background-repeat: no-repeat;
+  background-image: url(../asset/bgScaled.png);
+  border-radius: 10px;
+  box-shadow: 0 0 50px 30px $neon-green;
+  margin: 20px;
+  width: 75rem;
+  height: fit-content;
+}
+
+
+.navbar {
+  display: flex;
+  color: $font-gray;
+  font-size: 1.2rem;
+  justify-content: space-between;
+  max-width: 31rem;
+  margin: 10px 20px;
+  align-items: center;
+}
+
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+
+.hero {
+  margin: 6rem 3rem 18rem;
+  font-size: 1.3rem;
+  color: $neon-green;
+  max-width: 25rem;
+
+  h1 {
+    max-width: 25rem;
+  }
+}
+
+
+.text-box {
+  width: 22rem;
+  font-size: 1.1rem;
+  min-height: 8rem;
+}
+
+
+#title {
+  margin: -1rem 0 2rem 0;
+}
+
+  
+@media screen and (max-width: 1000px) {
+  .background {
+    background-image: none;
+  }
+
+  .hero {
+    text-align: center;
+    margin: 8rem 0 8rem;
+  }
+
+  .hero-box {
+    justify-content: center;
+    display: flex;
+  }
+
+  .text-box {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .background {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .contact-form {
+    justify-content: center;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .card {
+    width: 80%;
+  }
+}

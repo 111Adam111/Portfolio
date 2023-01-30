@@ -1,0 +1,71 @@
+.project-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .project-container h1 {
+    text-align: center;
+    color: $neon-green;
+  }
+
+  .card {
+    text-align: center;
+    color: $font-gray;
+    padding: 1rem;
+    margin: .5rem;
+    width: 21rem;
+    border: 2px solid $neon-green;
+    border-radius: 1rem;
+  }
+  
+  .switch-bar {
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+  .card-title {
+    color: $neon-green;
+    font-size: 1.5rem;
+  }
+  
+  .screenshots {
+    height: 14rem;
+    padding-bottom: 15px;
+
+    img {
+        width: 19rem;
+        height: 11rem;
+        z-index: 10;
+      }
+  }
+  
+  .desc {
+    height: 14rem;
+    padding-top: 15px;
+  }
+  
+  .space {
+    height: 45px;
+  }
+  
+  
+  
+  .arrow {
+    font-size: 1.2rem;
+    z-index: 11;
+    cursor: pointer;
+    user-select: none ;
+    color: $neon-green;
+    background-color: $font-gray;
+    border-radius: 50%;
+    
+    &-box {
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(6.8rem);
+    }
+}

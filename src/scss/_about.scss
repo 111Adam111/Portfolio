@@ -1,0 +1,39 @@
+.about-box, .photo-box {
+    justify-content: center;
+    display: flex;
+  }
+  
+  .about {
+    margin-top: 3rem;
+    padding: .5rem;
+    max-width: 44rem;
+    color: $font-gray;
+    text-align: center;
+
+    h1 {
+        color: $neon-green;
+      
+    }
+  }
+
+  .photo {
+    justify-content: center;
+    display: flex;
+    height: 190px;
+    width: 200px;
+    background-color: #fff;
+    background-image: url(../asset/myPhoto.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 2px solid $neon-green;
+  }
+
+  .skills {
+    display: flex;
+    text-align: left;
+
+    p {
+      margin: 0.2rem;
+    }
+  }

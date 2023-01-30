@@ -1,0 +1,17 @@
+$neon-green: #00ff44;
+$font-gray: rgb(128,128,128);
+$custom-font: customFont;
+$background-color: #1c171f;
+
+@font-face {
+    font-family: customFont;
+    src: url(../asset/Raven.otf);
+}
+
+.gray {
+    color: $font-gray;
+}
+  
+.green {
+    color: $neon-green;
+}

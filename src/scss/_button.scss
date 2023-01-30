@@ -1,0 +1,25 @@
+.btn {
+    font-family: $custom-font;
+    font-size: 1.2rem;
+    border-radius: 23px;
+    height: 45px;
+    border: none;
+    padding: 10px;
+    color: gray;
+    cursor: pointer;
+    background-color: $neon-green;
+
+    &:hover {    
+        transform: scale(1.1);
+    }
+}
+  
+  
+.transparent-btn {
+    background-color: transparent;
+    text-align: center;
+    
+    &:hover {
+      background-color: $neon-green;
+    }
+}

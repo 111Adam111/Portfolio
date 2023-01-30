@@ -1,0 +1,21 @@
+[debug] [2023-01-30T11:32:49.576Z] ----------------------------------------------------------------------
+[debug] [2023-01-30T11:32:49.579Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\adamd\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-01-30T11:32:49.580Z] CLI Version:   11.21.0
+[debug] [2023-01-30T11:32:49.580Z] Platform:      win32
+[debug] [2023-01-30T11:32:49.580Z] Node Version:  v16.16.0
+[debug] [2023-01-30T11:32:49.581Z] Time:          Mon Jan 30 2023 12:32:49 GMT+0100 (czas środkowoeuropejski standardowy)
+[debug] [2023-01-30T11:32:49.581Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-30T11:32:49.591Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-30T11:32:49.592Z] > authorizing via signed-in user (adamdunowski@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\adamd\react-portfolio
+
