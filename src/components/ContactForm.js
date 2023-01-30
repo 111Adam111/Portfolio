@@ -27,7 +27,7 @@ const ContactForm = () => {
     }
     if (e.target[0].value && e.target[1].value && e.target[2].value) {
       emailjs.sendForm(
-        // 'service_md3l1kc',
+        'service_md3l1kc',
         'template_pqa1k5e',
         form.current,
         'FE_nPFGd886-lWOyD')
