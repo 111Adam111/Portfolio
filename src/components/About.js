@@ -26,13 +26,11 @@ const About = () => {
           see no reason to stop. In addition to being a great career path, 
           programming aligns with my interests, is quite satisfying, and is 
           a skill I desire to possess. </p>
-        {/* <div className="skills"> */}
           <h1>skills: </h1>
-          <p>Javascript • ReactJS • HTML • CSS • Git •
+          <p>Javascript • ReactJS • NextJS • Typescript • Material UI • HTML • CSS • Git •
               Scrum • Problem solving • Creativity •
               Critical thinking • Team work • Flexibility •
-              Communication • Attention to detail</p>
-        {/* </div> */}
+              Communication • Attention to detail</p>    
          <h1>Contact Info</h1>
         <p>+48 796 270 826</p>
         <p>adamdunowski@gmail.com</p>
