@@ -4,7 +4,6 @@
 }
 
 .App {
-  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
   margin: 0;
   font-family: customFont;
   box-sizing: border-box;
@@ -12,41 +11,32 @@
   display: flex;
 }
 
-
 .background {
   background-position-x: left;
   background-repeat: no-repeat;
   background-image: url(bgScaled.png);
   border-radius: 10px;
-  /* box-shadow: 0 0 30px 20px #fd00c9; */
   box-shadow: 0 0 50px 30px #00ff44;
-  /* 1c171f */
-  /* 0aea72 */
   margin: 20px;
   width: 75rem;
   height: fit-content;
 }
-
 
 .navbar {
   display: flex;
   color: gray;
   font-size: 1.2rem;
   justify-content: space-between;
-  /* font-weight: bold;  */
   max-width: 31rem;
   margin: 10px 20px;
   align-items: center;
 }
-
 
 .menu {
   display: flex;
   justify-content: space-between;
   width: 200px;
 }
-
-
 
 .hero {
   margin: 6rem 3rem 18rem;
@@ -57,8 +47,6 @@
 
 .hero h1 {
   max-width: 25rem;
-  /* text-align: center; */
-  
 }
 
 .gray {
@@ -90,10 +78,7 @@
   background-color: #00ff44;
 }
 
-
 .btn:hover {
-  /* box-shadow: 0 0 5px 5px #00ff44; */
-
   transform: scale(1.1);
 }
 
@@ -102,11 +87,8 @@
   text-align: center;
 }
 
-
 .transparent-btn:hover {
   background-color: #00ff44;
-  /* transform: scale(1.1); */
-
 }
 
 .project-box {
@@ -118,15 +100,12 @@
 .project-container h1 {
   text-align: center;
   color: #00ff44;
-  /* margin: 18rem 0 1rem; */
 }
 .card {
   text-align: center;
   color: gray;
-  
-  /* height: 20rem; */
   padding: 1rem;
-  margin: .5rem;
+  margin: 0.5rem;
   width: 21rem;
   border: 2px solid #00ff44;
   border-radius: 1rem;
@@ -137,8 +116,6 @@
   align-items: center;
   justify-content: center;
 }
-
-
 
 .card-title {
   color: #00ff44;
@@ -159,7 +136,6 @@
   height: 45px;
 }
 
-
 .arrow-box {
   display: flex;
   justify-content: space-between;
@@ -168,43 +144,39 @@
 
 .screenshots img {
   width: 19rem;
-  /* height: 100px; */
   z-index: 10;
 }
 
 .right-arrow {
-  /* position: absolute; */
   top: 50%;
   right: 20px;
   font-size: 1.2rem;
   z-index: 11;
   cursor: pointer;
-  user-select: none ;
+  user-select: none;
   color: #00ff44;
   background-color: gray;
   border-radius: 50%;
 }
-
 
 .left-arrow {
   font-size: 1.2rem;
   z-index: 11;
   cursor: pointer;
-  /* user-select: none; */
   color: #00ff44;
   background-color: gray;
   border-radius: 50%;
 }
 
-
-.about-box, .photo-box {
+.about-box,
+.photo-box {
   justify-content: center;
   display: flex;
 }
 
 .about {
   margin-top: 3rem;
-  padding: .5rem;
+  padding: 0.5rem;
   max-width: 44rem;
   color: gray;
   text-align: center;
@@ -212,7 +184,6 @@
 
 .about h1 {
   color: #00ff44;
-
 }
 
 .photo {
@@ -235,7 +206,6 @@
   margin: 0.2rem;
 }
 
-
 .contact-form {
   display: flex;
   justify-content: center;
@@ -248,12 +218,11 @@
   display: flex;
   width: 25rem;
   flex-direction: column;
-  
 }
 .form input {
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   height: 1.5rem;
-  padding: .1rem;
+  padding: 0.1rem;
   text-align: center;
   font-family: customFont;
   color: gray;
@@ -261,40 +230,36 @@
   border: 2px solid #1c171f;
 }
 
-.form input:focus, .form textarea:focus {
+.form input:focus,
+.form textarea:focus {
   border: 2px solid #00ff44;
   outline: none;
-  /* background-color: #00ff44; */
 }
 
 .form textarea {
   text-align: center;
-  padding: .3rem;
+  padding: 0.3rem;
   font-family: customFont;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   resize: none;
   height: 8rem;
   color: gray;
   margin-bottom: 1rem;
   border: 2px solid #1c171f;
-
 }
 
 .form label {
-  margin: .4rem 0 .1rem;
+  margin: 0.4rem 0 0.1rem;
   color: gray;
 }
-
 
 @media screen and (max-width: 1000px) {
   .background {
     background-image: none;
-    /* background-position: center; */
   }
   .hero {
     text-align: center;
     margin: 8rem 0 8rem;
-
   }
   .hero-box {
     justify-content: center;
@@ -306,15 +271,12 @@
 }
 
 @media screen and (max-width: 500px) {
-
   .background {
     width: 100%;
     margin: 0;
     border-radius: 0;
     box-shadow: none;
-    /* border: 2px solid #00ff44; */
   }
-
   .menu {
     display: none;
   }
@@ -329,4 +291,3 @@
     width: 80%;
   }
 }
-

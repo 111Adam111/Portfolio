@@ -1,13 +1,13 @@
 # Portfolio for all my projects.
-## https://adamdunowski.pl/
+## Visit at: https://adamdunowski.pl/
 
-### Features:
-#### - Projects galery
-#### - Responsiveness
-#### - Contact form
+## Features:
+- Projects galery
+- Responsiveness
+- Contact form
 
-### Technology:
-#### - ReactJS
-#### - Sass
-#### - Firebase
+## Technology:
+- ReactJS
+- Sass
+- Firebase
 

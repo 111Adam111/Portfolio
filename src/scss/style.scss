@@ -4,7 +4,6 @@
 @import 'contactForm';
 @import 'projects';
 
-
 .App {
   margin: 0;
   font-family: $custom-font;
@@ -12,8 +11,7 @@
   justify-content: center;
   display: flex;
 }
-  
-  
+
 .background {
   background-position-x: left;
   background-repeat: no-repeat;
@@ -25,7 +23,6 @@
   height: fit-content;
 }
 
-
 .navbar {
   display: flex;
   color: $font-gray;
@@ -36,13 +33,11 @@
   align-items: center;
 }
 
-
 .menu {
   display: flex;
   justify-content: space-between;
   width: 200px;
 }
-
 
 .hero {
   margin: 6rem 3rem 18rem;
@@ -55,19 +50,20 @@
   }
 }
 
-
 .text-box {
   width: 22rem;
   font-size: 1.1rem;
   min-height: 8rem;
+  p {
+    font-family: $secendary-font;
+    font-weight: bold;
+  }
 }
-
 
 #title {
   margin: -1rem 0 2rem 0;
 }
 
-  
 @media screen and (max-width: 1000px) {
   .background {
     background-image: none;
@@ -89,7 +85,6 @@
 }
 
 @media screen and (max-width: 500px) {
-
   .background {
     width: 100%;
     margin: 0;

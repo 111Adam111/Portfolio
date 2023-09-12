@@ -7,11 +7,9 @@ const DownloadButton = () => {
     link.href = '../CV_Adam_Dunowski.pdf';
     link.download = '../CV_Adam_Dunowski.pdf';
     link.click();
-  }
+  };
 
-  return (
-    <Button text='Download CV' onclick={handleDownload}/>
-  );
-}
+  return <Button text="Download CV" onclick={handleDownload} />;
+};
 
 export default DownloadButton;

@@ -3,7 +3,7 @@
   src: url(../asset/Raven.otf);
 }
 .gray {
-  color: rgb(128, 128, 128);
+  color: rgb(199, 199, 199);
 }
 
 .green {
@@ -17,23 +17,27 @@
   height: 45px;
   border: none;
   padding: 10px;
-  color: gray;
+  color: rgb(107, 107, 107);
   cursor: pointer;
   background-color: #00ff44;
 }
 .btn:hover {
   transform: scale(1.1);
+  transition: 1s;
 }
 
 .transparent-btn {
   background-color: transparent;
   text-align: center;
+  color: rgb(199, 199, 199);
 }
 .transparent-btn:hover {
   background-color: #00ff44;
+  color: rgb(107, 107, 107);
 }
 
-.about-box, .photo-box {
+.about-box,
+.photo-box {
   justify-content: center;
   display: flex;
 }
@@ -42,11 +46,15 @@
   margin-top: 3rem;
   padding: 0.5rem;
   max-width: 44rem;
-  color: rgb(128, 128, 128);
+  color: rgb(199, 199, 199);
   text-align: center;
 }
 .about h1 {
   color: #00ff44;
+}
+.about p {
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serifnp;
 }
 
 .photo {
@@ -83,15 +91,18 @@
   width: 25rem;
   flex-direction: column;
 }
-.form input, .form textarea {
+.form input,
+.form textarea {
   text-align: center;
-  color: rgb(128, 128, 128);
-  font-family: customFont;
+  color: rgb(199, 199, 199);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   border-radius: 0.5rem;
+  font-weight: bold;
   border: 2px solid #1c171f;
   outline: none;
 }
-.form input:focus, .form textarea:focus {
+.form input:focus,
+.form textarea:focus {
   border: 2px solid #00ff44;
 }
 .form input {
@@ -104,7 +115,7 @@
   height: 8rem;
 }
 .form label {
-  color: rgb(128, 128, 128);
+  color: rgb(199, 199, 199);
 }
 .form p {
   color: rgb(255, 0, 0);
@@ -114,7 +125,7 @@
 }
 
 .email-sent {
-  color: rgb(128, 128, 128);
+  color: rgb(199, 199, 199);
   width: 17rem;
   height: 8rem;
   border: 2px solid #00ff44;
@@ -143,7 +154,7 @@
 
 .card {
   text-align: center;
-  color: rgb(128, 128, 128);
+  color: rgb(199, 199, 199);
   padding: 1rem;
   margin: 0.5rem;
   width: 21rem;
@@ -174,6 +185,8 @@
 .desc {
   height: 14rem;
   padding-top: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
 }
 
 .space {
@@ -186,10 +199,9 @@
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   color: #00ff44;
-  background-color: rgb(128, 128, 128);
+  background-color: rgb(199, 199, 199);
   border-radius: 50%;
 }
 .arrow-box {
@@ -214,14 +226,13 @@
   box-shadow: 0 0 50px 30px #00ff44;
   margin: 20px;
   width: 75rem;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
 }
 
 .navbar {
   display: flex;
-  color: rgb(128, 128, 128);
+  color: rgb(199, 199, 199);
   font-size: 1.2rem;
   justify-content: space-between;
   max-width: 31rem;
@@ -249,6 +260,10 @@
   width: 22rem;
   font-size: 1.1rem;
   min-height: 8rem;
+}
+.text-box p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
 }
 
 #title {
